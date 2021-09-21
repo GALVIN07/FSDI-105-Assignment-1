@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.capture-form{
+    background-color: wheat;
+    border: 1px solid darkblue;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+}
+div.control{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+}
+.control label{
+    flex-basis: 8rem;
+    text-align: right;
+    margin-right: 1rem;
+}
+.control input, .control select{
+    flex-basis: 20rem;
+    padding: 8px;
+}
+#btn-save{
+    padding: 1rem;
+    background-color: darkgoldenrod;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
